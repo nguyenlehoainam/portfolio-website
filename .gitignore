@@ -1,0 +1,25 @@
+node_modules/
+dist/
+
+# Local design tools, review evidence and disposable QA scripts.
+impeccable/
+taste-skill/
+.taste-skill/
+.impeccable/*
+!.impeccable/design.json
+.*.mjs
+tmp/
+.deploy/
+
+# Original input copies; production assets live under public/images and /cv.pdf.
+checkkhuonmat.jpg
+public/Nguyen-Le-Hoai-Nam-TopCV.vn-131126.203905.pdf
+
+# Local credentials and machine state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
