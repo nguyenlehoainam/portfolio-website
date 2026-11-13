@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T19:05:19.179Z",
+  "title": "Design System: NeLam",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "tonalRamp": [
+          "oklch(15% 0.0127 86.83)",
+          "oklch(26.43% 0.0127 86.83)",
+          "oklch(37.86% 0.0127 86.83)",
+          "oklch(49.29% 0.0127 86.83)",
+          "oklch(60.71% 0.0127 86.83)",
+          "oklch(72.14% 0.0127 86.83)",
+          "oklch(83.57% 0.0127 86.83)",
+          "oklch(95% 0.0127 86.83)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "white",
+        "tonalRamp": [
+          "oklch(15% 0.0082 91.48)",
+          "oklch(26.43% 0.0082 91.48)",
+          "oklch(37.86% 0.0082 91.48)",
+          "oklch(49.29% 0.0082 91.48)",
+          "oklch(60.71% 0.0082 91.48)",
+          "oklch(72.14% 0.0082 91.48)",
+          "oklch(83.57% 0.0082 91.48)",
+          "oklch(95% 0.0082 91.48)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "tonalRamp": [
+          "oklch(15% 0.0135 81.71)",
+          "oklch(26.43% 0.0135 81.71)",
+          "oklch(37.86% 0.0135 81.71)",
+          "oklch(49.29% 0.0135 81.71)",
+          "oklch(60.71% 0.0135 81.71)",
+          "oklch(72.14% 0.0135 81.71)",
+          "oklch(83.57% 0.0135 81.71)",
+          "oklch(95% 0.0135 81.71)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.0274 79.58)",
+          "oklch(26.43% 0.0274 79.58)",
+          "oklch(37.86% 0.0274 79.58)",
+          "oklch(49.29% 0.0274 79.58)",
+          "oklch(60.71% 0.0274 79.58)",
+          "oklch(72.14% 0.0274 79.58)",
+          "oklch(83.57% 0.0274 79.58)",
+          "oklch(95% 0.0274 79.58)"
+        ]
+      },
+      "wheat": {
+        "role": "neutral",
+        "displayName": "wheat",
+        "tonalRamp": [
+          "oklch(15% 0.0404 84.57)",
+          "oklch(26.43% 0.0404 84.57)",
+          "oklch(37.86% 0.0404 84.57)",
+          "oklch(49.29% 0.0404 84.57)",
+          "oklch(60.71% 0.0404 84.57)",
+          "oklch(72.14% 0.0404 84.57)",
+          "oklch(83.57% 0.0404 84.57)",
+          "oklch(95% 0.0404 84.57)"
+        ]
+      },
+      "light-wheat": {
+        "role": "neutral",
+        "displayName": "light wheat",
+        "tonalRamp": [
+          "oklch(15% 0.0214 85.95)",
+          "oklch(26.43% 0.0214 85.95)",
+          "oklch(37.86% 0.0214 85.95)",
+          "oklch(49.29% 0.0214 85.95)",
+          "oklch(60.71% 0.0214 85.95)",
+          "oklch(72.14% 0.0214 85.95)",
+          "oklch(83.57% 0.0214 85.95)",
+          "oklch(95% 0.0214 85.95)"
+        ]
+      },
+      "coffee": {
+        "role": "primary",
+        "displayName": "coffee",
+        "tonalRamp": [
+          "oklch(15% 0.0399 76.78)",
+          "oklch(26.43% 0.0399 76.78)",
+          "oklch(37.86% 0.0399 76.78)",
+          "oklch(49.29% 0.0399 76.78)",
+          "oklch(60.71% 0.0399 76.78)",
+          "oklch(72.14% 0.0399 76.78)",
+          "oklch(83.57% 0.0399 76.78)",
+          "oklch(95% 0.0399 76.78)"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "night",
+        "tonalRamp": [
+          "oklch(15% 0.0143 76.32)",
+          "oklch(26.43% 0.0143 76.32)",
+          "oklch(37.86% 0.0143 76.32)",
+          "oklch(49.29% 0.0143 76.32)",
+          "oklch(60.71% 0.0143 76.32)",
+          "oklch(72.14% 0.0143 76.32)",
+          "oklch(83.57% 0.0143 76.32)",
+          "oklch(95% 0.0143 76.32)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "on dark",
+        "tonalRamp": [
+          "oklch(15% 0.0200 84.59)",
+          "oklch(26.43% 0.0200 84.59)",
+          "oklch(37.86% 0.0200 84.59)",
+          "oklch(49.29% 0.0200 84.59)",
+          "oklch(60.71% 0.0200 84.59)",
+          "oklch(72.14% 0.0200 84.59)",
+          "oklch(83.57% 0.0200 84.59)",
+          "oklch(95% 0.0200 84.59)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "dark paper",
+        "tonalRamp": [
+          "oklch(15% 0.0075 95.35)",
+          "oklch(26.43% 0.0075 95.35)",
+          "oklch(37.86% 0.0075 95.35)",
+          "oklch(49.29% 0.0075 95.35)",
+          "oklch(60.71% 0.0075 95.35)",
+          "oklch(72.14% 0.0075 95.35)",
+          "oklch(83.57% 0.0075 95.35)",
+          "oklch(95% 0.0075 95.35)"
+        ]
+      },
+      "dark-white": {
+        "role": "neutral",
+        "displayName": "dark white",
+        "tonalRamp": [
+          "oklch(15% 0.0126 93.85)",
+          "oklch(26.43% 0.0126 93.85)",
+          "oklch(37.86% 0.0126 93.85)",
+          "oklch(49.29% 0.0126 93.85)",
+          "oklch(60.71% 0.0126 93.85)",
+          "oklch(72.14% 0.0126 93.85)",
+          "oklch(83.57% 0.0126 93.85)",
+          "oklch(95% 0.0126 93.85)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "dark ink",
+        "tonalRamp": [
+          "oklch(15% 0.0218 83.26)",
+          "oklch(26.43% 0.0218 83.26)",
+          "oklch(37.86% 0.0218 83.26)",
+          "oklch(49.29% 0.0218 83.26)",
+          "oklch(60.71% 0.0218 83.26)",
+          "oklch(72.14% 0.0218 83.26)",
+          "oklch(83.57% 0.0218 83.26)",
+          "oklch(95% 0.0218 83.26)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "dark muted",
+        "tonalRamp": [
+          "oklch(15% 0.0334 82.74)",
+          "oklch(26.43% 0.0334 82.74)",
+          "oklch(37.86% 0.0334 82.74)",
+          "oklch(49.29% 0.0334 82.74)",
+          "oklch(60.71% 0.0334 82.74)",
+          "oklch(72.14% 0.0334 82.74)",
+          "oklch(83.57% 0.0334 82.74)",
+          "oklch(95% 0.0334 82.74)"
+        ]
+      },
+      "dark-wheat": {
+        "role": "neutral",
+        "displayName": "dark wheat",
+        "tonalRamp": [
+          "oklch(15% 0.0265 83.09)",
+          "oklch(26.43% 0.0265 83.09)",
+          "oklch(37.86% 0.0265 83.09)",
+          "oklch(49.29% 0.0265 83.09)",
+          "oklch(60.71% 0.0265 83.09)",
+          "oklch(72.14% 0.0265 83.09)",
+          "oklch(83.57% 0.0265 83.09)",
+          "oklch(95% 0.0265 83.09)"
+        ]
+      },
+      "dark-light-wheat": {
+        "role": "neutral",
+        "displayName": "dark light wheat",
+        "tonalRamp": [
+          "oklch(15% 0.0180 88.81)",
+          "oklch(26.43% 0.0180 88.81)",
+          "oklch(37.86% 0.0180 88.81)",
+          "oklch(49.29% 0.0180 88.81)",
+          "oklch(60.71% 0.0180 88.81)",
+          "oklch(72.14% 0.0180 88.81)",
+          "oklch(83.57% 0.0180 88.81)",
+          "oklch(95% 0.0180 88.81)"
+        ]
+      },
+      "dark-coffee": {
+        "role": "primary",
+        "displayName": "dark coffee",
+        "tonalRamp": [
+          "oklch(15% 0.0572 82.87)",
+          "oklch(26.43% 0.0572 82.87)",
+          "oklch(37.86% 0.0572 82.87)",
+          "oklch(49.29% 0.0572 82.87)",
+          "oklch(60.71% 0.0572 82.87)",
+          "oklch(72.14% 0.0572 82.87)",
+          "oklch(83.57% 0.0572 82.87)",
+          "oklch(95% 0.0572 82.87)"
+        ]
+      },
+      "dark-night": {
+        "role": "neutral",
+        "displayName": "dark night",
+        "tonalRamp": [
+          "oklch(15% 0.0097 97.82)",
+          "oklch(26.43% 0.0097 97.82)",
+          "oklch(37.86% 0.0097 97.82)",
+          "oklch(49.29% 0.0097 97.82)",
+          "oklch(60.71% 0.0097 97.82)",
+          "oklch(72.14% 0.0097 97.82)",
+          "oklch(83.57% 0.0097 97.82)",
+          "oklch(95% 0.0097 97.82)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Name display",
+        "purpose": "Hero identity."
+      },
+      "headline": {
+        "displayName": "Editorial headline",
+        "purpose": "Chapter titles."
+      },
+      "discipline": {
+        "displayName": "Discipline title",
+        "purpose": "Equal emphasis across four disciplines."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "entrance-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Artifact entrances; disabled for reduced motion."
+      },
+      {
+        "name": "control-transition",
+        "value": ".25s",
+        "purpose": "Action lift, SVG translation and underline."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "medium",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled homepage action.",
+      "html": "<button class=\"ds-action\">Xem dự án<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-action{display:inline-flex;align-items:center;gap:24px;min-height:49px;padding:14px 20px;border:0;border-radius:0;background:var(--coffee,#554630);color:var(--paper,#f4f0e7);font:500 13px \"Be Vietnam Pro\",sans-serif;cursor:pointer;transition:transform .25s}.ds-action:hover{transform:translateY(-3px)}.ds-action:focus-visible{outline:3px solid var(--coffee,#554630);outline-offset:5px}.ds-action svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6;transition:transform .25s}.ds-action:hover svg{transform:translate(2px,-2px)}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Underlined CV action.",
+      "html": "<button class=\"ds-quiet\">Tải CV</button>",
+      "css": ".ds-quiet{border:0;background:none;color:var(--ink,#332f28);padding:10px 0;font:13px \"Be Vietnam Pro\",sans-serif;text-decoration:underline;text-underline-offset:6px;cursor:pointer}.ds-quiet:hover{text-decoration-thickness:2px}.ds-quiet:focus-visible{outline:3px solid var(--coffee,#554630);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Text navigation with an animated underline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#about\">Về tôi</a><a href=\"#work\">Dự án</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;font:13px \"Be Vietnam Pro\",sans-serif;color:var(--ink,#332f28)}.ds-nav a{color:inherit;text-decoration:none;padding:9px 0;position:relative}.ds-nav a:after{content:\"\";position:absolute;bottom:4px;left:0;right:0;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:3px solid var(--coffee,#554630);outline-offset:5px}"
+    },
+    {
+      "name": "Paper container",
+      "kind": "card",
+      "refersTo": "paper-container",
+      "description": "Consolidated reading surface.",
+      "html": "<article class=\"ds-paper\"><h3>Một chút về tôi.</h3><p>Code, design và những điều tôi tò mò.</p></article>",
+      "css": ".ds-paper{padding:32px;background:var(--white,#fffdf7);color:var(--ink,#332f28)}.ds-paper h3{font:500 29px/1.25 \"Playfair Display\",Georgia,serif;letter-spacing:-.035em;margin:0}.ds-paper p{font:15px/1.85 \"Be Vietnam Pro\",sans-serif;margin:20px 0 0}"
+    },
+    {
+      "name": "Native disclosure",
+      "kind": "custom",
+      "description": "Keyboard operable study details.",
+      "html": "<details class=\"ds-detail\"><summary>Thông tin dự án<span aria-hidden=\"true\">+</span></summary><p>Nội dung đang được cập nhật.</p></details>",
+      "css": ".ds-detail{color:var(--ink,#332f28);font:12px/1.8 \"Be Vietnam Pro\",sans-serif}.ds-detail summary{display:flex;justify-content:space-between;gap:18px;cursor:pointer;list-style:none;font-weight:500}.ds-detail summary::-webkit-details-marker{display:none}.ds-detail summary:hover{text-decoration:underline}.ds-detail summary:focus-visible{outline:3px solid var(--coffee,#554630);outline-offset:5px}.ds-detail span{font-size:22px;transition:transform .2s}.ds-detail[open] span{transform:rotate(45deg)}.ds-detail p{margin:16px 0 0;color:var(--muted,#716757)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Warm editorial personal archive",
+    "overview": "A creative dossier with the tactile calm of paper, photographic keepsakes and handwritten marginal notes. Large serif names and headings establish authorship; precise Vietnamese sans-serif text makes the archive readable and approachable.\n\nBounded grids and a few consolidated surfaces organize content. A dimensional workspace is an authored artifact with computer, camera and design sheet. The independent homepage CSS is the authority; historical scrapbook and concept pages are not the current system.",
+    "keyCharacteristics": [
+      "Ivory paper, wheat layers and coffee emphasis.",
+      "Editorial serif scale with Vietnamese sans-serif clarity.",
+      "Consolidated rectangular surfaces and restrained paper rotation.",
+      "Natural linear scrolling and accessible controls."
+    ],
+    "rules": [
+      {
+        "name": "The Material Hierarchy Rule",
+        "body": "Group related content with tonal surfaces before adding another enclosing panel.",
+        "section": "colors"
+      },
+      {
+        "name": "The Authored Voice Rule",
+        "body": "Use serif and italic emphasis for headings, signatures and marginal notes; keep factual reading and actions in sans-serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The Artifact Depth Rule",
+        "body": "Concentrate dimensionality in authored artifacts; keep reading surfaces calm and flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do consolidate related content on tonal paper surfaces.",
+      "Do keep equal title emphasis across all four disciplines.",
+      "Do preserve focus, native disclosures and reduced-motion behavior.",
+      "Do preserve portrait pixels and label illustrative project art."
+    ],
+    "donts": [
+      "Don't restore peach, olive or burgundy dominance.",
+      "Don't inherit discarded scrapbook layouts or overrides.",
+      "Don't turn each role or paragraph into a separate colored card.",
+      "Don't invent credentials, achievement badges or project screenshots.",
+      "Don't promote decorative kickers, glyph icons or hard offset shadows into reusable patterns."
+    ]
+  }
+}
