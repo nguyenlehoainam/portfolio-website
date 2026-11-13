@@ -36,4 +36,3 @@ function render(){
 function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;document.documentElement.style.setProperty('--progress',max>0?scrollY/max:0);}
 addEventListener('scroll',updateProgress,{passive:true});
 render();
-

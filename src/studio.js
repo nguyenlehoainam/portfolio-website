@@ -42,7 +42,3 @@ try {
   new IntersectionObserver(([e])=>visible=e.isIntersecting).observe(canvas);
   function frame(t){requestAnimationFrame(frame);if(!visible||t-last<32)return;last=t;const progress=THREE.MathUtils.clamp((innerHeight-canvas.getBoundingClientRect().top)/(innerHeight+canvas.clientHeight),0,1);const target=reduced.matches?-.12:-.12+pointer.x*.22+progress*.65;studio.rotation.y+=(target-studio.rotation.y)*.055;studio.position.y=reduced.matches?0:Math.sin(t*.0007)*.035;renderer.render(scene,camera);}requestAnimationFrame(frame);
 } catch(e) {canvas.hidden=true;document.querySelector('.object-caption').textContent='Code. Design. Photography.';console.warn('Studio scene unavailable',e);}
-
-
-
-

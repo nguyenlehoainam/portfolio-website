@@ -43,6 +43,5 @@ try {
   let frameId;function frame(t){frameId=requestAnimationFrame(frame);if(!visible||t-last<32)return;last=t;const progress=THREE.MathUtils.clamp((innerHeight-canvas.getBoundingClientRect().top)/(innerHeight+canvas.clientHeight),0,1);const target=reduced.matches?-.12:-.12+pointer.x*.22+progress*.65;studio.rotation.y+=(target-studio.rotation.y)*.055;studio.position.y=reduced.matches?0:Math.sin(t*.0007)*.035;renderer.render(scene,camera);}frameId=requestAnimationFrame(frame);
 
 return ()=>{cancelAnimationFrame(frameId);resizeObserver.disconnect();visibilityObserver.disconnect();const geometries=new Set(),materials=new Set(),textures=new Set();scene.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.material)materials.add(o.material)});materials.forEach(m=>{if(m.map)textures.add(m.map);m.dispose()});textures.forEach(t=>t.dispose());geometries.forEach(g=>g.dispose());renderer.dispose();};
-} catch(e) {canvas.hidden=true;console.warn('Studio unavailable',e);return ()=>{};} 
+} catch(e) {canvas.hidden=true;console.warn('Studio unavailable',e);return ()=>{};}
 }
-

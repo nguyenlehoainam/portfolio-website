@@ -16,5 +16,3 @@ import './studio.js';
 
 
 const updateScroll = () => { const max = document.documentElement.scrollHeight-innerHeight; document.documentElement.style.setProperty('--read', max > 0 ? scrollY/max : 0); document.documentElement.style.setProperty('--travel', Math.min(scrollY*.12,350)); }; addEventListener('scroll', updateScroll, {passive:true}); updateScroll();
-
-

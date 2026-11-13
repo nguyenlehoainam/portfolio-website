@@ -82,5 +82,3 @@ function setTheme(){document.documentElement.dataset.theme=theme;document.queryS
 document.querySelector('#language').onclick=()=>{language=language==='vi'?'en':'vi';localStorage.setItem('nelam-lang',language);setLanguage();setTheme();};document.querySelector('#theme').onclick=()=>{theme=theme==='light'?'dark':'light';localStorage.setItem('nelam-theme',theme);setTheme();};setLanguage();setTheme();
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');const update=()=>{const max=document.documentElement.scrollHeight-innerHeight;document.documentElement.style.setProperty('--progress',max>0?scrollY/max:0);};addEventListener('scroll',update,{passive:true});update();const paper=document.querySelector('.paper-stack');paper.addEventListener('pointermove',e=>{if(reduced.matches)return;const b=paper.getBoundingClientRect();paper.style.setProperty('--paper-x',((e.clientX-b.left)/b.width-.5)*12);});paper.addEventListener('pointerleave',()=>paper.style.setProperty('--paper-x',0));
 import('./studio.js');
-
-

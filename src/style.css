@@ -6,4 +6,3 @@
 
 /* Soft daylight palette: broad surfaces stay pale; deeper blue is reserved for readable controls. */
 .art-print{background:#dce6f0;color:#3c5772}.print-orbit{border-color:#b3c7db}.story-strip{background:#e6edf4;color:#3d536b}.story-strip em{color:#506b86}.contact{background:#e3ebf3;color:#303a46}.contact .solid{background:#506b86;color:#fff}.contact .socials button:hover{color:#3d5872}.contact .socials a:hover{color:#3d5872}.text-link:hover{background:#3d536b;color:#fff}html[data-theme=dark] .art-print{background:#354a60;color:#eaf0f6}html[data-theme=dark] .story-strip{background:#2c3b4b;color:#eaf0f6}html[data-theme=dark] .story-strip em{color:#b7cce0}html[data-theme=dark] .contact{background:#304357;color:#eaf0f6}html[data-theme=dark] .contact .solid{background:#c5d6e7;color:#233447}
-
