@@ -1,0 +1,56 @@
+body{scrollbar-color:var(--accent) var(--bg)}.site>header{gap:30px}.header-tools{display:flex;gap:12px;align-items:center}.header-tools button{border:0;background:none;padding:8px;min-height:44px;min-width:40px;color:var(--ink);font-size:13px}.header-tools svg{width:20px;height:20px;display:block}.site nav{margin-left:auto}.skip{position:absolute;top:-90px;left:20px;background:var(--bg);padding:12px;z-index:50}.skip:focus{top:10px}.studio-note{background:#ead9ca;position:relative;margin-top:30px;transform:rotate(-2deg);padding:12px 12px 24px}.studio-note:before{content:'';position:absolute;top:-9px;left:40%;height:22px;width:80px;background:#d3c1a7;opacity:.75;z-index:1;transform:rotate(5deg)}#sculpture{width:100%;height:280px;display:block}.object-caption{font-size:11px;display:block;text-align:center}.about-title{align-self:start;position:sticky;top:25px}.paper-stack .poster{transition:transform .75s cubic-bezier(.16,1,.3,1);transform:perspective(900px) rotateY(calc(var(--paper-x,0)*1deg)) rotate(-9deg)}.scroll-progress{position:fixed;top:0;left:0;height:3px;z-index:40;background:var(--accent);width:100%;transform:scaleX(var(--progress,0));transform-origin:left}.sample{color:var(--ink);opacity:.8}.contact-actions>div a{font-size:13px;text-decoration:underline;text-underline-offset:5px}html[data-theme=dark] body[data-concept=scrapbook]{--bg:#292522;--ink:#f0e5da;--panel:#493c35;--accent:#dfbdab;--secondary:#9c7c6b}html[data-theme=dark] body[data-concept=scrapbook] .chapter{background:#3c332d;color:var(--ink)}html[data-theme=dark] body[data-concept=scrapbook] .work{background:#352e29}html[data-theme=dark] .project{background:#292522}html[data-theme=dark] .studio-note{background:#3e3630}html[data-theme=dark] .paper-stack .note,html[data-theme=dark] .signature{color:#53443f}html[data-theme=dark] .sample{color:var(--ink)}html[data-theme=dark] body[data-concept=scrapbook] .contact .button{background:#dfbdab;color:#292522}html[data-theme=dark] .button{color:#292522}html[data-theme=dark] .button:hover{background:#f0e5da;color:#292522}.toast{min-width:240px}.contact-actions small{line-height:1.6}@media(max-width:760px){.site>header{flex-wrap:wrap;gap:10px;padding-top:15px;padding-bottom:10px}.site nav{gap:15px;font-size:12px;order:3;width:100%;justify-content:space-between;padding:8px 0}.header-tools{margin-left:auto;gap:4px}.about-title{position:static}#sculpture{height:250px}.studio-note{margin-top:25px}.hero{padding-top:25px}.hero-foot{font-size:10px}}@media(prefers-reduced-motion:reduce){.paper-stack .poster{transform:rotate(-9deg)}}
+html[data-theme=dark] .paper-stack .signature{color:#f0e5da}
+/* Warm neutral scrapbook: ivory, wheat paper and coffee ink. */
+body[data-concept=scrapbook]{--bg:#f5f1e7;--ink:#463e32;--panel:#e3d9c3;--accent:#62523d;--secondary:#b9a27b}
+body[data-concept=scrapbook] .chapter{background:#e8e0cf}
+body[data-concept=scrapbook] .work{background:#e9e1d1}
+body[data-concept=scrapbook] .studio-note{background:#e5dac3}
+body[data-concept=scrapbook] .studio-note:before{background:#c9b78e}
+body[data-concept=scrapbook] .paper-stack>.poster{background:#f5edd9;color:#4f4432}
+body[data-concept=scrapbook] .paper-stack .arc{border-color:#c4b18a}
+body[data-concept=scrapbook] .paper-stack .arc-c{border-color:#e3d5b4}
+body[data-concept=scrapbook] .paper-stack .note{background:#e7d9b8;color:#4f4432}
+body[data-concept=scrapbook] .paper-stack .tape{background:#bbaa85}
+body[data-concept=scrapbook] .paper-stack .signature{color:#4f4432}
+body[data-concept=scrapbook] .project-art{background:#d9ccb1}
+body[data-concept=scrapbook] .poster-1{background:#ede2c9;color:#584b35}
+body[data-concept=scrapbook] .poster-1 .arc{border-color:#beaa7f}
+body[data-concept=scrapbook] .poster-1 .arc-c{border-color:#f5efdf}
+body[data-concept=scrapbook] .poster-2{background:#dcd6c8;color:#494339}
+body[data-concept=scrapbook] .poster-2 .arc{border-color:#b2a78e}
+body[data-concept=scrapbook] .poster-2 .arc-c{border-color:#f4efe3}
+body[data-concept=scrapbook] .browser-bar{background:#ede7db;color:#463e32}
+body[data-concept=scrapbook] .browser-content{background:#f8f5ed;color:#463e32}
+body[data-concept=scrapbook] .browser-tiles>span{background:#e1d6bc}
+body[data-concept=scrapbook] .browser-tiles>span+span{background:#e9e3d6}
+html[data-theme=dark] body[data-concept=scrapbook]{--bg:#292620;--ink:#eee7d8;--panel:#423b2e;--accent:#d8c49c;--secondary:#a5926d}
+html[data-theme=dark] body[data-concept=scrapbook] .chapter{background:#393327}
+html[data-theme=dark] body[data-concept=scrapbook] .work{background:#332e25}
+html[data-theme=dark] body[data-concept=scrapbook] .project{background:#292620}
+html[data-theme=dark] body[data-concept=scrapbook] .studio-note{background:#40382a}
+html[data-theme=dark] body[data-concept=scrapbook] .contact .button{background:#d8c49c;color:#292620}
+html[data-theme=dark] body[data-concept=scrapbook] .paper-stack .signature{color:#eee7d8}
+html[data-theme=dark] body[data-concept=scrapbook] .button{color:#292620}
+.portrait-note{position:relative;margin:30px 0 0;padding:13px 13px 18px;background:#ece3d1;transform:rotate(-2deg)}.portrait-note:before{content:'';position:absolute;top:-10px;left:38%;height:24px;width:90px;background:#c9b78e;opacity:.8;z-index:1;transform:rotate(6deg)}.portrait-frame{aspect-ratio:4/4.2;overflow:hidden;background:#e4dfd0}.portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 68%}.portrait-note figcaption{display:flex;justify-content:space-between;gap:15px;margin-top:15px;font-size:11px;line-height:1.5}.personal-facts{display:grid;gap:16px;margin-bottom:25px}.personal-facts>div{display:grid;gap:5px}.personal-facts span{font-size:12px}.personal-facts strong{font-weight:500;font-size:19px;line-height:1.5}.about-content .studio-note{margin-top:30px}.contact-actions .direct-contact{display:flex;flex-direction:column;gap:6px;margin:0 0 22px}.contact-actions .direct-contact a{font-size:clamp(13px,1.5vw,19px);overflow-wrap:anywhere;text-decoration:none}.contact-actions>div{gap:15px 22px}.direct-contact a:hover{text-decoration:underline}html[data-theme=dark] .portrait-note{background:#423b2e}@media(max-width:760px){.portrait-note{max-width:420px;margin-inline:auto}.portrait-note figcaption{font-size:10px}.personal-facts{margin-top:8px}.personal-facts strong{font-size:18px}}
+/* A highlighted chapter for leadership and milestones. */
+body[data-concept=scrapbook] .milestones-section{background:#eae2d2;padding-block:65px;gap:6vw;grid-template-columns:.85fr 1.25fr;align-items:start;position:relative}
+.milestones-section>div:first-child{padding-top:14px}
+body[data-concept=scrapbook] .milestones-section h2{font-size:clamp(42px,4.4vw,64px)}
+.milestones-section>div:first-child>p{max-width:320px;font-size:16px;line-height:1.75}
+body[data-concept=scrapbook] .milestones-section .roles{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
+body[data-concept=scrapbook] .milestones-section .roles article{margin:0;padding:25px;background:#f5f1e7;display:flex;flex-direction:column;justify-content:center;min-height:140px}
+body[data-concept=scrapbook] .milestones-section .roles h3{font-family:var(--display);font-size:27px;line-height:1.2}
+body[data-concept=scrapbook] .milestones-section .roles p{margin-top:12px;font-size:13px;line-height:1.7}
+body[data-concept=scrapbook] .milestones-section .roles .featured-role{grid-column:1/-1;background:#62523d;color:#faf4e5;padding:32px;min-height:165px;position:relative;isolation:isolate}
+body[data-concept=scrapbook] .milestones-section .roles .featured-role:before{content:'';position:absolute;top:-10px;left:30px;width:85px;height:22px;background:#beaa7c;transform:rotate(-5deg);opacity:.9}
+body[data-concept=scrapbook] .milestones-section .featured-role h3{font-size:clamp(30px,2.7vw,39px)}
+.milestone-note{grid-column:1/-1;padding:24px 26px;background:#ded2b7}
+body[data-concept=scrapbook] .milestone-note h3{font-family:var(--body,'Be Vietnam Pro',sans-serif);font-size:18px;font-weight:500}
+body[data-concept=scrapbook] .milestone-note p{max-width:58ch;font-size:13px}
+html[data-theme=dark] body[data-concept=scrapbook] .milestones-section{background:#393226}
+html[data-theme=dark] body[data-concept=scrapbook] .milestones-section .roles article{background:#292620}
+html[data-theme=dark] body[data-concept=scrapbook] .milestones-section .roles .featured-role{background:#d8c49c;color:#30291d}
+html[data-theme=dark] .milestone-note{background:#4b402d}
+@media(max-width:760px){body[data-concept=scrapbook] .milestones-section{grid-template-columns:1fr;padding-block:45px;gap:30px}body[data-concept=scrapbook] .milestones-section h2{font-size:42px}.milestones-section>div:first-child{padding-top:0}.milestones-section>div:first-child>p{max-width:none;font-size:14px}body[data-concept=scrapbook] .milestones-section .roles{gap:14px}body[data-concept=scrapbook] .milestones-section .roles article{padding:22px;min-height:135px}body[data-concept=scrapbook] .milestones-section .roles h3{font-size:24px}body[data-concept=scrapbook] .milestones-section .roles .featured-role{padding:28px 24px;min-height:150px}body[data-concept=scrapbook] .milestones-section .featured-role h3{font-size:32px}.milestone-note{padding:22px}body[data-concept=scrapbook] .milestone-note h3{font-size:18px}}
+@media(max-width:440px){body[data-concept=scrapbook] .milestones-section .roles{grid-template-columns:1fr}body[data-concept=scrapbook] .milestones-section .roles article{min-height:auto}}
+
